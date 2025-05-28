@@ -12,9 +12,44 @@
 //your code
 
 const isAdmin = false
-const isVerifiedUser = false
+const isVerifiedUser = true
 const hasSpecialPermission = false
 const hasTemporaryPass = false
 
-let isAccess = ((!isAdmin || !isVerifiedUser) && (!hasSpecialPermission || !hasTemporaryPass))
+let isAccess = ((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass))
 console.log(isAccess);
+
+
+
+
+//варианты значений
+
+// const isAdmin = true
+// const isVerifiedUser = false
+// const hasSpecialPermission = true
+// const hasTemporaryPass = false
+
+
+
+
+
+// const isAdmin = false
+// const isVerifiedUser = false
+// const hasSpecialPermission = false
+// const hasTemporaryPass = false
+
+
+
+
+
+// const isAdmin = false
+// const isVerifiedUser = true
+// const hasSpecialPermission = false
+// const hasTemporaryPass = true
+
+
+
+// const isAdmin = false
+// const isVerifiedUser = true
+// const hasSpecialPermission = false
+// const hasTemporaryPass = false
