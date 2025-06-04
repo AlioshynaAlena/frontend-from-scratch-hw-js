@@ -1,7 +1,7 @@
 // Разработайте функцию isEven, которая определяет, чётное ли число.
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
-const num = 6
+const number = 0
 let result;
 
 function isEven(number) {
@@ -11,7 +11,7 @@ function isEven(number) {
         result = false
     }
 }
-isEven(num)
+isEven(number)
 console.log(result);
 
 
