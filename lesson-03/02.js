@@ -34,19 +34,19 @@
 // можно использовать еще стрелочную функцию, тернарный оператор
 
 
-// const number = 0
-
-// function isEven(number) {
-//     return number % 2 === 0 ? "True" : "False"
-
-// }
-// const result = isEven(number)
-// console.log(result);
-
 const number = 0
 
 function isEven(number) {
-    return number % 2 === 0;
+    return number % 2 === 0 ? "True" : "False"
+
 }
 const result = isEven(number)
 console.log(result);
+
+// const number = 0
+
+// function isEven(number) {
+//     return number % 2 === 0;
+// }
+// const result = isEven(number)
+// console.log(result);
