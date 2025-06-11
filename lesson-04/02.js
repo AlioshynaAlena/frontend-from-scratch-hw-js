@@ -26,7 +26,7 @@ function findUniqueElements(someArray) {
     for (let i = 0; i < someArray.length; i++) {
 
         for (let i = 0; i < someArray.length; i++) {
-            if (newArray.indexOf(someArray[i]) === -1) {
+            if (newArray.indexOf(someArray[i]) === -1) { //если в новом массиве не найдено значение из "старого массива", то оно пушится в новый массив
                 newArray.push(someArray[i])
             }
         }
