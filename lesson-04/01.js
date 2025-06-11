@@ -24,4 +24,5 @@ function includesElement(someArray, someElement) {
     return false
 }
 
-console.log(includesElement(array, 72));
+const value = includesElement(array, 72)
+console.log(value);
