@@ -30,7 +30,6 @@ function findUniqueElements(someArray) {
                 newArray.push(someArray[i])
             }
         }
-
     }
     return newArray
 }
