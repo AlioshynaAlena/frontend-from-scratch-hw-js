@@ -58,3 +58,12 @@ console.log(gallery);
 // }
 // console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'));
 // console.log(gallery);
+
+
+
+// ИЛИ еще проще:
+// function updateGallery(obj, key, value) {
+//     obj[key] = value;
+// }
+// console.log(updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506'));
+// console.log(gallery);
