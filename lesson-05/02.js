@@ -40,9 +40,21 @@ function updateGallery(obj, key, value) {
     if (obj !== obj[key]) {
         obj[key] = value
     } else {
-        obj[key] = obj[key]
+        obj[key] = value
     }
 }
 
-console.log(updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506'));
+console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'));
 console.log(gallery);
+
+//ИЛИ_ПРАВИЛЬНЕЕ:
+// function updateGallery(obj, key, value) {
+
+//     if (key in obj) {
+//         obj[key] = value
+//     } else {
+//         obj[key] = value
+//     }
+// }
+// console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'));
+// console.log(gallery);
